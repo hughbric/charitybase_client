@@ -1,25 +1,27 @@
-# Next.js + Jest
+# A CharityBase Client
 
-This example shows how to configure Jest to work with Next.js.
+This project utilises the [CharityBase](https://charitybase.uk/docs) GraphQL API.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+It is built in React, Tailwind, and Next.js. It is deployed on Vercel - the URL can be found on the top right of this repo.
 
 ## How to Use
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+Clone this repository and run `yarn` to install the dependencies.
 
-In your terminal, run the following command:
-
+To start the local development server run:
 ```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-# or
-pnpm create next-app -- --example with-jest with-jest-app
+npm run dev
 ```
+
+Visit `localhost:3000` in your browser.
 
 ## Run Jest Tests
 
 ```bash
 npm test
 ```
+
+## Build considerations
+
+
+## Improvements
