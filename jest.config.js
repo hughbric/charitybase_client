@@ -13,6 +13,10 @@ const customJestConfig = {
     '^@/components/(.*)$': '<rootDir>/components/$1',
 
     '^@/pages/(.*)$': '<rootDir>/pages/$1',
+    
+    '^@/graphql/(.*)$': '<rootDir>/graphql/$1',
+
+    '^@/fixtures/(.*)$': '<rootDir>/fixtures/$1',
   },
   testEnvironment: 'jest-environment-jsdom',
 }

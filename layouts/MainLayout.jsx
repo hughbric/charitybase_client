@@ -12,7 +12,7 @@ export default function MainLayout({ children }) {
         </Head>
         <Navbar />
         <main>
-          <div className="mx-8 mt-14 bg-white rounded-md">
+          <div className="mx-8 mt-14">
             {children}
           </div>
         </main>
